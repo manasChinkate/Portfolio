@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Manas Chinkate</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+	<script src="form.js"></script>
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+	</script>
+	<script type="text/javascript">
+		(function () {
+			emailjs.init("l-jpa4pDJT2VaAn5i");
+		})();
+	</script>
+</head>
+
+<body>
+	<div class="loader">
+		<h1>100%</h1>
+		<span id="loader"></span>
+	</div>
+	<div class="main">
+		<div id="page1">
+			<nav>
+				<div class="logo">
+					<a href="#">Manas Chinkate</a>
+				</div>
+				<!--<div class="menu">
+					<ul>
+
+						<li><a href="#about">About</a></li>
+						<li><a href="#projects">Projects</a></li>
+						<li><a href="#contact">Contact</a></li>
+						<li><a href="#certify">Certifications</a></li>
+					</ul>
+
+				</div>-->
+			</nav>
+			<div class="hero">
+
+				<h1>Hello, I'm Manas Chinkate</h1>
+				<span class="under"></span>
+				<h2>A Software Developer based in Thane</h2>
+				<a href="#page1" class="btn">View Projects</a>
+
+
+			</div>
+			<div class="social">
+				<a href="https://www.facebook.com/profile.php?id=100009316963256&mibextid=ZbWKwL" class="fa fa-facebook fa-2x"
+					target="_blank"></a>
+				<a href="https://www.linkedin.com/in/manas-chinkate-22aba3249/" id="lin" class="fa fa-linkedin fa-2x"
+					target="_blank"></a>
+				<a href="https://www.youtube.com/@manaschinkate2795" class="fa fa-youtube-play fa-2x"
+					target="_blank"></a>
+				<a href="https://github.com/manasChinkate" class="fa fa-github fa-2x"
+					target="_blank"></a>
+			</div>
+
+		</div>
+		<div id="page2">
+			<section id="about">
+				<h2>About Me</h2>
+				<div class="about-content">
+					<img src="images\my.jpg" alt="Profile Picture">
+					<p1> Hi there! I'm Manas Chinkate,a Software Developer based in Thane.I have a passion for creating
+						clean, modern, and functional websites and applications. </p>
+						<p2>With my expertise in ASP.net, Python and basic knowledge of Java and JavaScript, I am
+							confident
+							in my ability to provide solutions to any web development challenge. Whether it's a custom
+							website or a web application, I have the skills and experience to create an effective and
+							visually appealing product that meets your needs.</p>
+				</div>
+			</section>
+			<section id="projects">
+				<h2>My Projects</h2>
+				<div class="projects-grid">
+					<div class="project-card">
+						<div class="project-image">
+							<img src="images\bg.jpg" alt="Project 1">
+						</div>
+						<div class="project-details">
+							<h3>Esports</h3>
+							<p>Esports management involves the planning, organization, and execution of events, teams,
+								and
+								organizations within the esports industry.It is basically designed for the small players
+								who
+								are willing to make carrier in Esports community. </p>
+							<a href="#">View Project</a>
+						</div>
+					</div>
+					<div class="project-card">
+						<div class="project-image">
+							<img src="images\login.jpg" alt="Project 2">
+						</div>
+						<div class="project-details">
+							<h3>Exam Department Supervision</h3>
+							<p>Exam department supervision involves the management and oversight of all aspects related
+								to
+								the administration of exams in an educational institution.It includes assigning
+								supervisors
+								and relievers and keep the data of the all exams and make a printout of every
+								assignation of
+								supervisiors in familiar format.</p>
+							<a href="#">View Project</a>
+						</div>
+					</div>
+					<div class="project-card">
+						<div class="project-image">
+							<img src="images/project 3.png" alt="Project 2">
+						</div>
+						<div class="project-details">
+							<h3>Duo Studio (Clone)</h3>
+							<p>Duo studio clone websites contains lots of moving animations which i cloned from original
+								website </p>
+							<a href="https://manaschinkate.github.io/DUO-SUDIO/">View Project</a>
+						</div>
+					</div>
+
+					<!-- Add more project cards as needed -->
+				</div>
+			</section>
+			<span id="loader"></span>
+		</div>
+		<div id="page3">
+			<h2>My Certificates</h2>
+			<div class="certificate-grid">
+				<div class="certificate-card">
+					<div class="certificate-image">
+						<img src="images\cert‬ipy.png" alt="Project 1">
+					</div>
+					<div class="certificate-details">
+						<h3>Python Programming</h3>
+					</div>
+				</div>
+				<div class="certificate-card">
+					<div class="certificate-image">
+						<img src="images\bg.jpg" alt="Project 1">
+					</div>
+					<div class="certificate-details">
+						<h3>Python Programming</h3>
+					</div>
+				</div>
+				<div class="certificate-card">
+					<div class="certificate-image">
+						<img src="images\bg.jpg" alt="Project 1">
+					</div>
+					<div class="certificate-details">
+						<h3>Python Programming</h3>
+					</div>
+				</div>
+			</div>
+		</div>
+	
+
+	<div id="page4">
+		<section id="contact">
+			<h2>Contact Me</h2>
+			<form onsubmit="sendMail(); reset(); return false;">
+				<label for="name">Name:</label>
+				<input type="text" id="name" name="name">
+				<label for="email">Email:</label>
+				<input type="email" id="email" name="email">
+				<label for="message">Message:</label>
+				<textarea id="message" name="message"></textarea>
+				<button id="btnn" type="submit" onclick="sendMail()">Send</button>
+			</form>
+		</section>
+		<footer>
+			<p>&copy; 2023 Manas Chinkate.
+		</footer>
+	</div>
+	</div>
+	<script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"
+		integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug=="
+		crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"
+		integrity="sha512-Ic9xkERjyZ1xgJ5svx3y0u3xrvfT/uPkV99LBwe68xjy/mGtO+4eURHZBW2xW4SZbFrF1Tf090XqB+EVgXnVjw=="
+		crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+	<script src="script.js"></script>
+
+
+
+</body>
+
+</html>
