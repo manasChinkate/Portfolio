@@ -477,6 +477,8 @@ button[type="submit"]:hover {
 		font-size: 18px;
 		margin-bottom: 20
 	}
+	.certificate-card h3{
+		background-color: transparent;
 }
 
 .fa {
