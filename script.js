@@ -184,7 +184,7 @@ tl3.to(".project-card",{
   backgroundColor:"##1b1616"
 },"amin")
 tl3.to(".certificate-card",{
-  backgroundColor:"#1b1616"
+ // backgroundColor:"#1b1616"
 },"amin")
 
 
