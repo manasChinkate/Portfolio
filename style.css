@@ -590,6 +590,8 @@ button[type="submit"]:hover {
 	.projects-grid{
 		
 		display: flex;
+		flex: 1 0 100%;
+		scroll-snap-align: start;
 		overflow-x: auto;
 		flex-direction: row;
 		
