@@ -586,6 +586,17 @@ button[type="submit"]:hover {
 	.about-content img {
 		margin-right: 2px;
 	}
+
+	.projects-grid{
+		
+		display: flex;
+		overflow-x: auto;
+		flex-direction: row;
+		
+	}
+	.project-card{
+		min-width: 300px;
+	}
 }
 
 .fa {
