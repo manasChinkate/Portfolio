@@ -343,8 +343,9 @@ section h2 {
 }
 
 .project-card {
-	box-shadow: rgba(75, 74, 74, 0.253) 0px 54px 55px, rgba(255, 255, 255, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+	/* box-shadow: rgba(75, 74, 74, 0.253) 0px 54px 55px, rgba(255, 255, 255, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; */
 	background-color: rgba(165, 27, 27, 0.05);
+	box-shadow: rgba(255, 255, 255, 0.541) 0px 2px 5px -1px, rgba(255, 255, 255, 0.521) 0px 1px 3px -1px;
 	border-radius: 10px;
 	overflow: hidden;
 	cursor: pointer;
@@ -417,6 +418,71 @@ section h2 {
 	
 	margin-top: 20px;
 
+}
+
+#Tech{
+	
+	min-height: 40vh;
+}
+#Tech h1{
+	padding-bottom: 20px;
+}
+.techgrid{
+	display: flex;
+	align-items: center;
+	gap: 30px;
+	
+	
+	
+	
+}
+.techgridd{
+	width: 230px;
+	background-color: #3d2d2d;
+	height: 240px;
+	padding: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+	border-radius: 6px;
+	flex-direction: column;
+	box-shadow: rgba(255, 255, 255, 0.541) 0px 2px 5px -1px, rgba(255, 255, 255, 0.521) 0px 1px 3px -1px;
+	opacity: 0;
+	
+	
+}
+#technology{
+	overflow: hidden;
+	height: 210px;
+	
+	
+}
+.image{
+	height: 200px;
+	margin-bottom: 10px;
+	transition: all ease 0.5s;
+}
+.image h1{
+	height: 200px;
+	margin-top: 5px ;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 30px;
+}
+#technology:hover .image{
+	transform: translateY(-100%);
+}
+#technology img{
+	height: 200px;
+	width: 200px;
+	
+}
+#technology h1{
+	text-align: center;
+	
+	width: 200px;
 }
 
 #page3 .certificate-card {

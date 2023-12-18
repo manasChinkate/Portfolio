@@ -59,7 +59,7 @@ var tl = gsap.timeline({
    // markers:true,
     start: "top 30%",
     end: "top 30",
-    scrub: 1,
+    scrub: 3,
 
   }
 })
@@ -98,8 +98,8 @@ var tl4 = gsap.timeline({
     trigger: "#page1 .logo",
     scroller: ".main",
    // markers:true,
-    start: "top -350%",
-    end: "top -240%",
+    start: "top -550%",
+    end: "top -200%",
     scrub: 3,
 
   }
@@ -180,6 +180,12 @@ tl3.to(".main",{
 tl3.to(".main",{
   backgroundColor:"#000"
 },"amin")
+tl3.to(".techgridd",{
+  opacity: "100%"
+},'yes')
+tl3.from(".techgridd",{
+  y: "-00"
+},'yes')
 tl3.to(".project-card",{
   backgroundColor:"##1b1616"
 },"amin")
