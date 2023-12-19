@@ -665,6 +665,9 @@ button[type="submit"]:hover {
 	.project-card{
 		min-width: 300px;
 	}
+	.techgrid{
+		overflow-x: scroll;
+	}
 }
 
 .fa {
