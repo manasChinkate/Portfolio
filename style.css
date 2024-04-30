@@ -638,6 +638,9 @@ button[type="submit"]:hover {
 		width: 83%;
 
 	}
+	#page2{
+		padding: 5px 20px;
+	}
 
 	.hero h2 {
 		font-size: 18px;
